@@ -1,0 +1,84 @@
+.container ul li {
+display: flex;
+}
+ #side .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container ul {
+    display: flex;
+    gap: 20px;
+}
+.container ul li a {
+    color: #000;
+    text-decoration: none;
+}
+header {
+    padding: 27px 87px;
+}
+#side .container img {
+    width: 514px;
+    height: 360px;
+}
+#side .content h1 {
+    color: red;
+}
+#side .content {
+    width: 520px;
+    height: 318px;
+}
+#side {
+    padding: 25px 87px;
+}
+#hilton .container h1 {
+    color: red;
+}
+.hilton-text {
+    width: 520px;
+    height: 318px;
+}
+.hilton-text img {
+    width: 514px;
+    height: 360px;    
+}
+
+#hilton .container{
+    display: flex;
+    padding: 110px 87px;
+    justify-content: space-between;
+}
+
+#hotel .container img {
+    width: 514px;
+    height: 360px;
+}
+#hotel .container p {
+    width: 520px;
+    height: 287px;
+}
+#hotel .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 142px 80px;
+}
+#hotel .hotel-text h1 {
+color: red;
+}
+#hotel .hotel-text p {
+    width: 520px;
+    height: 287px;
+}
+#marriot .container h1 {
+    color: red;
+}
+#marriot .container p {
+    width: 520px;
+    height: 304px;
+}
+#marriot .container{
+    display: flex;
+    padding: 138px 92px;
+    justify-content: space-between;
+    gap: 20px;
+}
